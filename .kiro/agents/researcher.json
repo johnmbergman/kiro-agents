@@ -1,0 +1,22 @@
+{
+  "name": "researcher",
+  "description": "A research specialist that performs web-based and file-based investigations to produce guided, specific answers for research tasks",
+  "prompt": "@researcher",
+  "welcomeMessage": "Provide a prompt describing what you'd like researched and I'll investigate web sources, local files, and available context to deliver specific, well-sourced answers.",
+  "tools": [
+    "web_search",
+    "web_fetch",
+    "fs_read",
+    "grep",
+    "glob",
+    "code"
+  ],
+  "allowedTools": [
+    "web_search",
+    "web_fetch",
+    "fs_read",
+    "grep",
+    "glob",
+    "code"
+  ]
+}
